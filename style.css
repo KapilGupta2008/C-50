@@ -1,0 +1,32 @@
+h1{
+    color:red;
+} 
+p{
+    color:rgb(139, 0, 139);
+}
+
+body{
+    background-color: white;
+}
+.header{
+background-color:cadetblue;
+display:flex;
+justify-content: space-between;
+}
+.menu{
+    background-color: rgb(255, 0, 212);
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+p,h1{
+    text-align: center;
+}
